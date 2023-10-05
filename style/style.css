@@ -1,0 +1,105 @@
+body{
+        margin: 0;
+        padding: 0;
+}
+
+.what_section{
+        background-color: #dfe6e9;
+        width: 100%;
+
+}
+
+#what{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 100px;
+
+}
+
+.child1{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* gap: 30px; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        padding-bottom: 100px;
+        /* margin-right: 20px; */
+}
+.doing1, .doing2, .doing3, .doing4,.doing5, .doing6 {
+        width: 400px;
+        margin-top: 100px;
+}
+.customize{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+}
+.customizable{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: sans;
+        font-weight: 400;
+}
+.pcustom{
+        font-size: 16px;
+        width: 250px;
+        line-height: 25px;
+        color: grey;
+}
+
+.doing3>h3{
+        width:50%;
+        margin-left: auto;
+        margin-right: 50px;
+}
+.doing3>p{
+        margin-left: auto;
+}
+.doing3>img{
+      
+        margin-left: 144px;
+}
+.doing6>h3{
+        width:50%;
+        margin-left: auto;
+        margin-right: 50px;
+}
+.doing6>p{
+        margin-left: auto;
+}
+.doing6>img{
+      
+        margin-left: 144px;
+}
+.doing2>h3{
+        width:50%;
+        margin-left: auto;
+        margin-right: 128px;
+}
+.doing2>p{
+        margin-left: auto;
+        margin-right: auto;
+}
+.doing2>img{
+      
+        margin-left: 70px;
+}
+.doing5>h3{
+        width:50%;
+        margin-left: auto;
+        margin-right: 128px;
+}
+.doing5>p{
+        margin-left: auto;
+        margin-right: auto;
+}
+.doing5>img{
+      
+        margin-left: 70px;
+}
